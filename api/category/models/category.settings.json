@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "ammo_types": {
+      "collection": "ammo-types",
+      "via": "categories",
+      "dominant": true
+    },
+    "armors": {
+      "via": "categories",
+      "collection": "armor",
+      "dominant": true
+    },
+    "common_items": {
+      "collection": "common-items",
+      "via": "categories",
+      "dominant": true
+    }
+  }
+}

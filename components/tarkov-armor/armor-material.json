@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tarkov_armor_armor_materials",
+  "info": {
+    "name": "Armor_material",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "material_name": {
+      "type": "string"
+    },
+    "material_destructibility": {
+      "type": "float"
+    }
+  }
+}

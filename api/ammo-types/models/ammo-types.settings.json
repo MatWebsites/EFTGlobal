@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ammo_types",
+  "info": {
+    "name": "Ammo types"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ammunation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarkov-ammo.ammo"
+    },
+    "categories": {
+      "via": "ammo_types",
+      "collection": "category"
+    }
+  }
+}

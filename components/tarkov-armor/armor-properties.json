@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_tarkov_armor_armor_properties",
+  "info": {
+    "name": "armor_properties",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "armor_class": {
+      "type": "string",
+      "required": true
+    },
+    "armor_desc": {
+      "type": "text",
+      "required": false
+    },
+    "armor_durability": {
+      "type": "float",
+      "required": true
+    },
+    "Armor_material": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tarkov-armor.armor-material"
+    },
+    "Armor_penalties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tarkov-armor.armor-penalties"
+    }
+  }
+}

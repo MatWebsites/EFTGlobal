@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_items",
+  "info": {
+    "name": "All Items",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desc": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

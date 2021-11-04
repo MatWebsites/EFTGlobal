@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_items",
+  "info": {
+    "name": "Common Items"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items_common": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarkov-common.common-item"
+    },
+    "categories": {
+      "via": "common_items",
+      "collection": "category"
+    }
+  }
+}

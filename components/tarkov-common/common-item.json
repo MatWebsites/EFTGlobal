@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_tarkov_common_common_items",
+  "info": {
+    "name": "Common_Item",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item_id": {
+      "type": "string",
+      "required": true
+    },
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "item_shortName": {
+      "type": "string",
+      "required": true
+    },
+    "item_desc": {
+      "type": "text",
+      "required": false
+    },
+    "item_price": {
+      "type": "integer",
+      "required": false
+    },
+    "item_weight": {
+      "type": "float"
+    },
+    "item_maxStack": {
+      "type": "integer"
+    },
+    "item_rarity": {
+      "type": "string"
+    },
+    "item_kind": {
+      "type": "string",
+      "default": "eg. \"common\""
+    }
+  }
+}

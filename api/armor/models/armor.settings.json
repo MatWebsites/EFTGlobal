@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "armors",
+  "info": {
+    "name": "Armor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Armor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tarkov-armor.armor"
+    },
+    "categories": {
+      "via": "armors",
+      "collection": "category"
+    }
+  }
+}

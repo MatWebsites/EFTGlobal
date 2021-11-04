@@ -1,0 +1,82 @@
+{
+  "collectionName": "Ammunation",
+  "info": {
+    "name": "Ammo",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "round_name": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "eg Ammo Types"
+    },
+    "round_shortName": {
+      "type": "string",
+      "required": true
+    },
+    "round_desc": {
+      "type": "text",
+      "required": true
+    },
+    "round_caliber": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "round_type": {
+      "type": "string",
+      "required": true
+    },
+    "is_tracer": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "tracer_color": {
+      "type": "string",
+      "required": false
+    },
+    "is_subsonic": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "round_velocity": {
+      "type": "float",
+      "required": true,
+      "default": 0
+    },
+    "round_damage": {
+      "type": "float",
+      "required": true
+    },
+    "round_penetration": {
+      "type": "float",
+      "required": true,
+      "default": 0
+    },
+    "round_armorDamage": {
+      "type": "float",
+      "required": true
+    },
+    "round_fragmentationChance": {
+      "type": "float",
+      "required": true
+    },
+    "round_fragmentationMax": {
+      "type": "integer"
+    },
+    "round_fragmentationMin": {
+      "type": "integer"
+    },
+    "round_lightBleedChance": {
+      "type": "float"
+    },
+    "round_heavyBleedChance": {
+      "type": "float"
+    }
+  }
+}

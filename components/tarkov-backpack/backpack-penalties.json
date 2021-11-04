@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tarkov_backpack_backpack_penalties",
+  "info": {
+    "name": "backpack_penalties",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "penalty_speed": {
+      "type": "float"
+    }
+  }
+}

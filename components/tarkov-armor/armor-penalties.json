@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_tarkov_armor_armor_penalties",
+  "info": {
+    "name": "Armor_penalties",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "penalty_mouse": {
+      "type": "float"
+    },
+    "penalty_speed": {
+      "type": "float"
+    },
+    "penalty_ergo": {
+      "type": "integer"
+    },
+    "penalty_deafness": {
+      "type": "string",
+      "default": "strength of hearing loss eg. \"low, medium, high\""
+    }
+  }
+}

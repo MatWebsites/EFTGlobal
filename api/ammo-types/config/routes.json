@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ammo-types",
+      "handler": "ammo-types.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ammo-types/count",
+      "handler": "ammo-types.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ammo-types/:id",
+      "handler": "ammo-types.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ammo-types",
+      "handler": "ammo-types.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ammo-types/:id",
+      "handler": "ammo-types.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ammo-types/:id",
+      "handler": "ammo-types.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

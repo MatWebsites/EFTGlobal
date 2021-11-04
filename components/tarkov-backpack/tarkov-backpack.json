@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_tarkov_backpack_tarkov_backpacks",
+  "info": {
+    "name": "Tarkov-Backpack",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "backpack_id": {
+      "type": "string"
+    },
+    "backpack_name": {
+      "type": "string"
+    },
+    "backpack_shortName": {
+      "type": "string"
+    },
+    "backpack_desc": {
+      "type": "string"
+    },
+    "backpack_basePrice": {
+      "type": "biginteger"
+    },
+    "backpack_weight": {
+      "type": "float"
+    },
+    "backpack_maxStack": {
+      "type": "integer"
+    },
+    "backpack_rarity": {
+      "type": "string"
+    },
+    "backpack_penalties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tarkov-backpack.backpack-penalties"
+    }
+  }
+}
